@@ -1,5 +1,5 @@
 <?php
-$dir = session_save_path() ? session_save_path() : "/tmp/";
+$dir = session_save_path() ? session_save_path()."/" : "/tmp/";
 
 // Session Mapping
 /*$sessions = array();
